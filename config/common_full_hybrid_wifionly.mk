@@ -7,5 +7,5 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/candy/overlay/tablet
 PRODUCT_COPY_FILES += \
     system/bluetooth/data/main.nonsmartphone.conf:system/etc/bluetooth/main.conf
     
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+# Include Candy audio files
+include vendor/candy/config/candy_audio.mk

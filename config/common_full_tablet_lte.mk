@@ -2,5 +2,5 @@
 $(call inherit-product, vendor/candy/config/common.mk)
 $(call inherit-product, vendor/candy/config/common_apn.mk)
 
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+#  Include Candy audio files
+include vendor/candy/config/candy_audio.mk

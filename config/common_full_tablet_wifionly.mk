@@ -1,5 +1,5 @@
 # Inherit common stuff
 $(call inherit-product, vendor/candy/config/common.mk)
 
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+#  Include Candy audio files
+include vendor/candy/config/candy_audio.mk
