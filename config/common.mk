@@ -212,5 +212,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(CANDY_MOD_VERSION) \
     ro.candy.buildtype=$(CANDY_BUILD_TYPE)
 
-EXTENDED_POST_PROCESS_PROPS := vendor/candy/tools/candy_process_props.py
+# Remove LCD density changer for now
+# EXTENDED_POST_PROCESS_PROPS := vendor/candy/tools/candy_process_props.py
 
